@@ -49,34 +49,36 @@ nav>a[href="#"]{
 
 .home, .about {
     margin-right: 8px;
-
 }
 
 main{
     width: 1000px;
     margin: auto;
 }
+
 section {
     position: relative;
 }
 
 h2 {
     width: 100%;
-    position: absolute;
-    bottom: 224px;
+    position: relative;
+    bottom: 260px;
     border: 1px solid black;
     text-align: center;
     padding: 5px;
 }
 
 .logo { 
-    position: absolute;
+    position: relative;
     width: 150px;
     left: 30px;
+    bottom: 20px;
 }
 
 article{
     position: relative;
+    bottom: 200px;
     left: 280px
 }
 
