@@ -7,7 +7,7 @@
 
 body {
     width: 100vw;
-    height: 70vw;
+    height: 60vw;
 }
 
 header {
@@ -63,38 +63,69 @@ section {
 h2 {
     width: 100%;
     position: relative;
-    bottom: 260px;
+    bottom: 466px;
     border: 1px solid black;
     text-align: center;
     padding: 5px;
+    font-size: 28px;
+}
+
+.about-section>h2 {
+    bottom: 516px
 }
 
 .logo { 
     position: relative;
     width: 150px;
     left: 30px;
-    bottom: 20px;
+    bottom: 235px;
+}
+
+.about-section>.logo{
+    bottom: 284px;
 }
 
 article{
     position: relative;
-    bottom: 200px;
-    left: 280px
+    bottom: 420px;
+    left: 240px;
+}
+
+.about-section>article {
+    position: relative;
+    bottom: 470px;
+    left: 220px;
+    width: 680px;
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 22px;
     font-style: italic;
 }
 p {
     margin-bottom: 20px;
     margin-left: 20px;
+    font-size: 17px;
+}
+
+.about-section>article>p{
+    margin-bottom: 20px;
+    margin-left: 0;
+    text-indent: 25px;
+}
+
+.about-section>article>h4 {
+    font-style: normal;
 }
 
 .img-2 {
-    position: absolute;
+    position: relative;
     top: 200px;
     width: 550px;
     box-shadow: 2px 2px 5px black;
-    right: 225px;
+    left: 75px;
+}
+
+.about-section>.img-2{
+    top: 350px;
 }
