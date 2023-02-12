@@ -7,7 +7,7 @@
 
 body {
     width: 100vw;
-    height: 100vw;
+    height: 70vw;
 }
 
 header {
@@ -50,4 +50,49 @@ nav>a[href="#"]{
 .home, .about {
     margin-right: 8px;
 
+}
+
+main{
+    width: 1000px;
+    margin: auto;
+}
+section {
+    position: relative;
+}
+
+h2 {
+    width: 100%;
+    position: absolute;
+    bottom: 224px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+.logo { 
+    position: absolute;
+    width: 150px;
+    left: 30px;
+}
+
+article{
+    position: relative;
+    left: 280px
+}
+
+h4 {
+    font-size: 20px;
+    font-style: italic;
+}
+p {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.img-2 {
+    position: absolute;
+    top: 200px;
+    width: 550px;
+    box-shadow: 2px 2px 5px black;
+    right: 225px;
 }
