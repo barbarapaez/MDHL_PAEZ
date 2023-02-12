@@ -74,6 +74,10 @@ h2 {
     bottom: 516px
 }
 
+.contact-section>h2 {
+    bottom:491px
+}
+
 .logo { 
     position: relative;
     width: 150px;
@@ -85,6 +89,15 @@ h2 {
     bottom: 284px;
 }
 
+.contact-section>.logo{
+    bottom:261.5px 
+}
+
+.contact-section>p{
+    position: relative;
+    bottom: 448px;
+    left: 220px
+}
 article{
     position: relative;
     bottom: 420px;
@@ -126,6 +139,10 @@ p {
     left: 75px;
 }
 
-.about-section>.img-2{
+.about-section>.img-2 {
     top: 350px;
+}
+
+.contact-section>.img-2 {
+    top: 110px;
 }
