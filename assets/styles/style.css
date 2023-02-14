@@ -126,6 +126,14 @@ article {
     justify-content: center;
 }
 
+.contact-article{
+    align-items: center;
+}
+
+.contact-article>img{
+    width: 50px;
+}
+
 h4 {
     letter-spacing: 2px;
     font-size: 18px;
@@ -143,6 +151,10 @@ p[class="linea"]{
 .about-article>p{
     text-indent: 15px;
     margin-left: 0;
+}
+
+.contact-article>p{
+    margin-bottom: 0;
 }
 
 footer {
