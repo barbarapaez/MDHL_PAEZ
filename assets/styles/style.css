@@ -157,6 +157,81 @@ p[class="linea"]{
     margin-bottom: 0;
 }
 
+.article-tittle {
+    text-align: center;
+    font-size: 25px;
+}
+
+.italic {
+    font-style: italic;
+    margin: 0;
+    font-size: 18px;
+}
+
+.bottom {
+    margin-bottom: 20px;
+}
+
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    table-layout: auto;
+    margin: 10px 0 30px 0;
+}
+
+caption{
+    padding: 10px;
+    background-color: rgba(177, 166, 166, 0.205);
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    letter-spacing: 15px;
+    font-weight: 500;
+}
+
+th{
+    background-color: rgb(53, 129, 85);
+    color: white;
+}
+
+tbody tr:nth-child(even){
+    background-color: rgba(245, 255, 105, 0.671);
+}
+
+tbody tr:nth-child(odd), thead tr, tfoot tr{
+    border: 1px solid black;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.fecha {
+    text-align: center;
+}
+
+
+h5 {
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+span{
+    font-weight: lighter;
+    margin-left: 5px;
+}
+
+.move {
+    margin-top: 35px;
+}
+
+.en-linea {
+display: flex;
+justify-content: space-between;
+}
+
 footer {
     margin: 60px;
     padding: 5px;
