@@ -236,11 +236,12 @@ display: flex;
 justify-content: space-between;
 }
 
-dt{
-    text-transform: uppercase;
-    font-weight: bolder;
-    font-size: 18px;
-    margin: 15px 0;
+.policies-article>h5{
+    margin-bottom: 20px;
+}
+
+.policies-article>p{
+    margin-left: 0;
 }
 
 .ol-list{
@@ -252,8 +253,12 @@ dt{
     font-weight: bold;
 }
 
-dd{
-    margin-bottom: 30px;
+ol>li:not(span) {
+    font-weight: 400;
+}
+
+li>span {
+    font-weight: bold;
 }
 
 li>span{
