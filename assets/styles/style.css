@@ -162,6 +162,10 @@ p[class="linea"]{
     font-size: 25px;
 }
 
+.article-text {
+    text-align: center;
+}
+
 .italic {
     font-style: italic;
     margin: 0;
@@ -230,6 +234,42 @@ span{
 .en-linea {
 display: flex;
 justify-content: space-between;
+}
+
+dt{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.ol-list{
+    margin-bottom: 20px;
+    list-style-position: inside;
+}
+
+.ol-list::marker {
+    font-weight: bold;
+}
+
+dd{
+    margin-bottom: 30px;
+}
+
+li>span{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.indent {
+    text-indent: 50px;
+}
+
+ul>li{
+    margin-left: 50px;
+    text-indent: 0;
+    list-style: circle;
+    list-style-position: inside;
 }
 
 footer {
