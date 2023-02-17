@@ -236,10 +236,154 @@ iframe{
     box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.432);
 }
 
+.registrarion-article>h4 {
+    font-size: 22px;
+    letter-spacing: 2.5px;
+    margin-bottom: 15px;
+}
+
+fieldset{
+    border-color: rgba(245, 255, 105, 0.671);
+    border-style: dashed;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+legend{
+    margin: 5px;
+    padding: 5px 15px;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+    border-radius: 30px;
+    background-color: rgba(245, 255, 105, 0.671);
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.432);
+}
+
+.names>input{
+    width: 231.5px;
+}
+
+.names>input, .city>input {
+    background-color: rgba(207, 207, 207, 0.404);
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.432);
+    border-color: transparent;
+    padding: 0 5px;
+    margin-bottom: 10px;
+}
+
+.grades{
+    display: flex;
+    align-items: baseline;
+}
+
+.grades>input{
+    margin-left: 10px;
+}
+
+#street_address{
+    width: 520px;
+    background-color: rgba(207, 207, 207, 0.404);
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.432);
+    border-color: transparent;
+    padding: 0 5px;
+    margin-bottom: 10px;
+}
+
+.city>input {
+    width: 258.5px;
+}
+
+.birth{
+    display: flex;
+    align-items: baseline;
+}
+
+.birth>input{
+    margin: 0 10px;
+}
+
+.grades>p{
+    margin:0;
+}
+
+fieldset>h6{
+    margin: 10px 0;
+}
+
+.position>input, .grades>input{
+    margin-right: 4px;
+}
+
+.position>label{
+    margin-right: 20px;
+}
+
+.uniform{
+    display: flex;
+    gap: 30px;
+}
+
+.uni-1, .uni-2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+.uni-1>input, .uni-2>input{
+    align-self: flex-start;
+}
+
+.uni-1>label, .uni-2>label{
+    margin-left: 20px;
+    position: relative;
+    bottom: 15px;
+}
+
+fieldset>p{
+    margin: 10px 2px;
+    text-align: justify;
+}
+
+.signature{
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.signature>input {
+    width: 415.5px;
+    background-color: rgba(207, 207, 207, 0.404);
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.432);
+    border-color: transparent;
+    padding: 0 5px;
+    margin-bottom: 10px;
+}
+
+.submit {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 17px;
+    background-color: rgb(245, 255, 105);
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.432);
+    border-color: transparent;
+    padding: 5px 20px;
+    transition: transform 0.5s ease;
+}
+
+.submit:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 129, 85);
+    transition: 0.5s;
+}
+
+
 .fecha {
     text-align: center;
 }
-
 
 h5 {
     letter-spacing: 0.5px;
