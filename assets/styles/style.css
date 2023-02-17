@@ -215,6 +215,11 @@ th, td{
     height: fit-content;
 }
 
+.en-linea>h5>a{
+    text-decoration: none;
+    font-weight: 400;
+}
+
 .venue{
     text-align: center;
     font-size: 25px;
