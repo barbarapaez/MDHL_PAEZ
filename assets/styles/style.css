@@ -211,6 +211,31 @@ th, td{
     padding: 10px;
 }
 
+.schedule-article {
+    height: fit-content;
+}
+
+.venue{
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.maps {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+iframe{
+    width: 40%;
+    height: 40%;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.432);
+}
+
 .fecha {
     text-align: center;
 }
